@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>维生数工作室报名</title>
+<style>
+textarea.scroll
+{
+  width:600px;
+  height:250px;
+  overflow:scroll;
+}
+body
+{
+  text-align:center;
+  background:url(/home/jat/桌面/考核/p11.1.jpg);
+  background-size:100% 100%;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+fieldset
+{
+  margin:0px auto;
+  color:white;
+  width:650px;
+  height:800px;
+}
+div
+{
+  text-align:left;
+  border:2px solid #a1a1a1;
+  padding:20px 20px;
+  border-radius:20px;
+  font-size:18px;
+  line-height:280%;
+}
+p
+{
+  font-size:22px;
+}
+</style>
+</head>
+<body>
+<form name="input" action=" " method="get">
+<fieldset>
+<legend style="text-align:center; font-size:25px; font-weight:900;">维生数工作室报名表</legend>
+<br><br>
+<div>姓名：<input type="text" size="10">
+学号：<input type="text"><br>
+学院年级专业：<input type="text" size="25">
+性别：<input type="radio" name="性别" value="男">男
+<input type="radio" name="性别" value="女">女<br>
+<form name="form1" method="post" enctype="multipart/form-data" action="">
+个人照片上传：<input type="file" name="File1" />
+<input type="submit" name="Submit" value="上传" /></form><br>
+手机号码：<input type="text">
+想加入的组别：<select name="组别" style="text-align:left">
+<option value="设计组">设计组</option>
+<option value="前端组">前端组</option>
+<option value="后台组">后台组</option>
+</select><br>
+邮箱：<input type="text" size="30"></div><br>
+<p><b>兴趣爱好特长</b></p>
+<textarea class="scroll" rows="10" cols="50%" placeholder="你的兴趣爱好特长">
+</textarea>
+<br>
+<input type="submit" value="确认报名">
+</fieldset>
+</form>
+</body>
+</html>
